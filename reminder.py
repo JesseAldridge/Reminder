@@ -1,4 +1,4 @@
-import time, os, sys, subprocess
+import time, os, sys
 
 meta_path = os.path.expanduser('~/reminder.txt')
 
