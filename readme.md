@@ -1,4 +1,5 @@
 Add something like this to your `.bash_profile`:
+
 `python /Users/Jesse/Dropbox/reminder/reminder.py &`
 
 ---
