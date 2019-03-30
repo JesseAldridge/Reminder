@@ -8,6 +8,9 @@ else:
   with open(meta_path, 'w') as f:
     pass
 
-  while True:
-    print "don't fuck up"
-    time.sleep(60 * 60)
+  try:
+    while True:
+      print "don't fuck up"
+      time.sleep(60 * 60)
+  finally:
+    os.remove(meta_path)
