@@ -1,4 +1,4 @@
-import time, os, sys
+import time
 
 while True:
   print "don't fuck up"
